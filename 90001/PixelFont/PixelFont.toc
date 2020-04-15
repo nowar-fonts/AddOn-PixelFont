@@ -1,0 +1,27 @@
+## Interface: 90001
+
+## Title: Pixel Font
+## Notes: Unified pixel font for all supported languages.
+## Title-deDE: Pixelschrift
+## Title-esES: Fuente de Píxeles
+## Title-esMX: Fuente de Píxeles
+## Title-frFR: Police Pixel
+## Title-itIT: Carattere Pixel
+## Title-koKR: 픽셀 글꼴
+## Title-ptBR: Fonte de Pixel
+## Title-ruRU: Пиксельный Шрифт
+## Title-zhCN: 像素字体
+## Title-zhTW: 像素字體
+
+## Version: 9.0.1-alpha1
+## Author: Cyano Hao
+## X-Category: Miscellaneous
+## X-License: MIT
+
+## OptionalDeps: LibSharedMedia-3.0
+
+Core.lua
+FixedSize.xml
+
+LibStub.lua
+SharedMedia.lua

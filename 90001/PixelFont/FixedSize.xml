@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Ui [
+	<!ENTITY EditionId "PixelFont">
+	<!ENTITY DefaultFont_Western "Interface\AddOns\PixelFont\WarPixelUI-CL-ExtendedLight.ttf">
+	<!ENTITY DefaultFont_zhCN "Interface\AddOns\PixelFont\WarPixel-CN-Light.ttf">
+	<!ENTITY DefaultFont_zhTW "Interface\AddOns\PixelFont\WarPixel-TW-Light.ttf">
+]>
+
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+
+	<FontFamily name="GlobalFont_&EditionId;_FixedSizeWrapper_SystemFont_NamePlateFixed" virtual="true">
+		<Member alphabet="roman">
+			<Font font="&DefaultFont_Western;" height="14" filter="false" fixedSize="true" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+		<Member alphabet="korean">
+			<Font font="&DefaultFont_Western;" height="14" filter="false" fixedSize="true" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+		<Member alphabet="simplifiedchinese">
+			<Font font="&DefaultFont_zhCN;" height="14" filter="false" fixedSize="true" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+		<Member alphabet="traditionalchinese">
+			<Font font="&DefaultFont_zhTW;" height="14" filter="false" fixedSize="true" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+		<Member alphabet="russian">
+			<Font font="&DefaultFont_Western;" height="14" filter="false" fixedSize="true" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+	</FontFamily>
+	<Font name="SystemFont_NamePlateFixed" inherits="GlobalFont_&EditionId;_FixedSizeWrapper_SystemFont_NamePlateFixed" virtual="true"/>
+
+	<FontFamily name="GlobalFont_&EditionId;_FixedSizeWrapper_SystemFont_LargeNamePlateFixed" virtual="true">
+		<Member alphabet="roman">
+			<Font font="&DefaultFont_Western;" height="20" filter="false" fixedSize="true" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+		<Member alphabet="korean">
+			<Font font="&DefaultFont_Western;" height="20" filter="false" fixedSize="true" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+		<Member alphabet="simplifiedchinese">
+			<Font font="&DefaultFont_zhCN;" height="20" filter="false" fixedSize="true" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+		<Member alphabet="traditionalchinese">
+			<Font font="&DefaultFont_zhTW;" height="20" filter="false" fixedSize="true" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+		<Member alphabet="russian">
+			<Font font="&DefaultFont_Western;" height="20" filter="false" fixedSize="true" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+	</FontFamily>
+	<Font name="SystemFont_LargeNamePlateFixed" inherits="GlobalFont_&EditionId;_FixedSizeWrapper_SystemFont_LargeNamePlateFixed" virtual="true"/>
+
+	<FontFamily name="GlobalFont_&EditionId;_FixedSizeWrapper_SystemFont_NamePlateCastBar" virtual="true">
+		<Member alphabet="roman">
+			<Font font="&DefaultFont_Western;" height="10" filter="false" fixedSize="true" outline="NORMAL" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+		<Member alphabet="korean">
+			<Font font="&DefaultFont_Western;" height="10" filter="false" fixedSize="true" outline="NORMAL" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+		<Member alphabet="simplifiedchinese">
+			<Font font="&DefaultFont_zhCN;" height="10" filter="false" fixedSize="true" outline="NORMAL" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+		<Member alphabet="traditionalchinese">
+			<Font font="&DefaultFont_zhTW;" height="10" filter="false" fixedSize="true" outline="NORMAL" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+		<Member alphabet="russian">
+			<Font font="&DefaultFont_Western;" height="10" filter="false" fixedSize="true" outline="NORMAL" monochrome="true">
+				<Shadow>
+					<Offset>
+						<AbsDimension x="1" y="-1"/>
+					</Offset>
+					<Color r="0" g="0" b="0"/>
+				</Shadow>
+			</Font>
+		</Member>
+	</FontFamily>
+	<Font name="SystemFont_NamePlateCastBar" inherits="GlobalFont_&EditionId;_FixedSizeWrapper_SystemFont_NamePlateCastBar" virtual="true"/>
+
+</Ui>
