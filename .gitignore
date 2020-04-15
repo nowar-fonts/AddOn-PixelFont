@@ -1,0 +1,6 @@
+__pycache__/
+font-building/cache/
+font-building/build/
+font-building/out/
+font-building/node_modules/
+font-building/Makefile
